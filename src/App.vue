@@ -1,24 +1,35 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
+    <div id="nav" class="col-md-2 mx-0 px-0">
+      <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
+      <router-link to="/resume">Resume</router-link>
+      <router-link to="/projects">Projects</router-link>
+      <router-link to="/contacts">Contacts</router-link>
     </div>
-    <router-view />
+    <div class="col-md-10 mx-0 px-0">
+      <router-view />
+    </div>
   </div>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  display: flex;
+  height: 100%;
 }
 
 #nav {
   padding: 30px;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sections {
+  height: 100vh;
 }
 
 #nav a {
