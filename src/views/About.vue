@@ -1,5 +1,5 @@
 <template>
-  <div class="about bg-primary sections">
+  <div class="about sections">
     <h1>This is an about page</h1>
   </div>
 </template>

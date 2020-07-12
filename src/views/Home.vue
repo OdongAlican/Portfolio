@@ -1,5 +1,5 @@
 <template>
-  <div class="home bg-secondary sections">
+  <div class="home sections home-page">
     <h1>This is an Home page</h1>
   </div>
 </template>
@@ -10,3 +10,5 @@ export default {
   }
 };
 </script>
+<style>
+</style>

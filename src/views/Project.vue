@@ -1,5 +1,5 @@
 <template>
-  <div class="home bg-secondary sections">
+  <div class="home sections">
     <h1>This is a Project page</h1>
   </div>
 </template>
