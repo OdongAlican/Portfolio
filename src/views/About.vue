@@ -28,25 +28,56 @@
               I’m a full-stack software developer, and I specialize in efficient, Ruby, Ruby on Rails, Javascript,
               React apps and CSS & HTML that just work across all platforms and browsers
             </p>
+            <div class="partial name d-flex mb-2">
+              <div class="first">
+                <span>Title :</span>
+              </div>
+              <div>
+                <h5>Mr.</h5>
+              </div>
+            </div>
             <div class="partial name d-flex">
-              <span>Full Name :</span>
-              <h5>Sunday Odong</h5>
+              <div class="first">
+                <span>Full Name :</span>
+              </div>
+              <div>
+                <h5>Sunday Odong</h5>
+              </div>
             </div>
             <div class="partial nationality my-2 d-flex">
+              <div class="first">
               <span>Nationality :</span>
+              </div>
+              <div>
               <h5>Ugandan</h5>
+              </div>
             </div>
             <div class="partial language d-flex">
+              <div class="first">
               <span>Languages :</span>
+              </div>
+              <div>
               <h5>English, German, Luo</h5>
+              </div>
             </div>
             <div class="partial address my-2 d-flex">
+              <div class="first">
               <span>Address :</span>
-              <h5>Plot 19, Obiya Road Gulu</h5>
+              </div>
+              <div>
+              <h5>Plot 19, Obiya Road Gulu, Uganda</h5>
+              </div>
             </div>
             <div class="partial frelance d-flex">
+              <div class="first">
               <span>Freelance :</span>
+              </div>
+              <div>
               <h5>Available</h5>
+              </div>
+            </div>
+            <div class="cv-download ml-2 mt-2">
+              <span>DOWNLOAD CV</span>
             </div>
           </div>
         </div>
@@ -135,11 +166,12 @@
 
 .partial h5 {
   margin-top: 4px;
-  flex: 3;
 }
 
-.partial span {
-  flex: 1;
+.partial .first {
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .partial {
@@ -149,5 +181,23 @@
   padding: 0 20px;
   justify-content: flex-start;
 }
+
+.cv-download {
+  background-color: #0D7DFA;
+  height: 4em;
+  width: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cv-download :hover {
+  border-bottom: 2px solid #fff;
+}
+.cv-download span {
+  color: #fff;
+}
+
 
 </style>
