@@ -65,6 +65,7 @@ export default {
   position: absolute;
   width: 81%;
   right: 0;
+  height: 100vh;
 }
 
 .social-media div {

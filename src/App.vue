@@ -51,7 +51,6 @@ body {
   border-right: 1px solid #2E344E;
   display: flex;
   flex-direction: row;
-  height: 100vh;
 }
 
 #nav {
@@ -77,7 +76,6 @@ body {
 }
 
 .sections {
-  height: 100vh;
   background-color: #10121B;
 }
 

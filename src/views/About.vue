@@ -30,54 +30,100 @@
             </p>
             <div class="partial name d-flex mb-2">
               <div class="first">
-                <span>Title :</span>
+                <span>Title</span>
               </div>
               <div>
-                <h5>Mr.</h5>
+                <h5>: Mr.</h5>
               </div>
             </div>
             <div class="partial name d-flex">
               <div class="first">
-                <span>Full Name :</span>
+                <span>Full Name</span>
               </div>
               <div>
-                <h5>Sunday Odong</h5>
+                <h5>: Sunday Odong</h5>
               </div>
             </div>
             <div class="partial nationality my-2 d-flex">
               <div class="first">
-              <span>Nationality :</span>
+              <span>Nationality</span>
               </div>
               <div>
-              <h5>Ugandan</h5>
+              <h5>: Ugandan</h5>
               </div>
             </div>
             <div class="partial language d-flex">
               <div class="first">
-              <span>Languages :</span>
+              <span>Languages </span>
               </div>
               <div>
-              <h5>English, German, Luo</h5>
+              <h5>: English, German, Luo</h5>
               </div>
             </div>
             <div class="partial address my-2 d-flex">
               <div class="first">
-              <span>Address :</span>
+              <span>Address</span>
               </div>
               <div>
-              <h5>Plot 19, Obiya Road Gulu, Uganda</h5>
+              <h5>: Plot 19, Obiya Road Gulu, Uganda</h5>
               </div>
             </div>
             <div class="partial frelance d-flex">
               <div class="first">
-              <span>Freelance :</span>
+              <span>Freelance</span>
               </div>
               <div>
-              <h5>Available</h5>
+              <h5>: Available</h5>
               </div>
             </div>
             <div class="cv-download ml-2 mt-2">
               <span>DOWNLOAD CV</span>
+            </div>
+          </div>
+        </div>
+        <div class="services">
+          <h1>
+            SERVICES
+          </h1>
+        </div>
+        <div class="inner-section new-section">
+          <div class="middle-section"></div>
+        </div>
+        <div class="service-section mt-4">
+          <div class="front-end grid-section">
+            <i class="fab fa-accusoft fa-3x"></i>
+            <h5>Web Design</h5>
+            <div class="empty-div"></div>
+            <div class="description">
+              <p>
+                This is mainly achieved using Bootstrap, HTML5 and CSS3.
+                The development includes use of media queries, font-awesome icons
+                and google fonts. The website is design for various screen sizes 
+                including Desktop, Tab and Mobile screen sizes.
+              </p>
+            </div>
+          </div>
+          <div class="back-end grid-section mx-4">
+            <i class="fab fa-react fa-3x"></i>
+            <h5>Web Development(Front End)</h5>
+            <div class="empty-div"></div>
+            <div class="description">
+              <p>
+                I majorly develop single paged applications 
+                using Javascript and its frame-work React and Redux.
+              </p>
+            </div>
+          </div>
+          <div class="articles grid-section">
+            <i class="fas fa-server fa-3x"></i>
+            <h5>Web Development(Backend End)</h5>
+            <div class="empty-div"></div>
+            <div class="description">
+              <p>
+                In the Server-side (also know as Back-end), I specialize 
+                in Ruby and its frame-work of Ruby on Rails. This is many developed 
+                using relational database like Postgress, SQLite or MYSQL
+              </p>
             </div>
           </div>
         </div>
@@ -115,7 +161,7 @@
 .home h1 {
   font-size: 45px;
   margin-top: 0;
-  color: #fff;
+  color: #EDF2F7;
 }
 
 .inner-section {
@@ -160,7 +206,7 @@
 
 .partial span,
 .partial h5 {
-  color: #fff;
+  color: #A0AEC0;
   font-size: 20px;
 }
 
@@ -193,11 +239,61 @@
 }
 
 .cv-download :hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #EDF2F7;
 }
 .cv-download span {
-  color: #fff;
+  color: #EDF2F7;
 }
 
+.sections {
+  height: 170vh;
+}
 
+.services {
+  margin-top: 80px;
+}
+
+.new-section {
+  margin-top: 150px;
+}
+
+.service-section {
+  font-family: Nunito,sans-serif;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-section {
+  background-color: #191D2B;
+  border: 1px solid #2E344E;
+  border-top: 4px solid #2E344E;
+  cursor: pointer;
+  color: #fff;
+  padding-top: 5px;
+}
+
+.grid-section :hover{
+  color: #fff;
+  transition: ease;
+}
+
+.fa-accusoft,
+.fa-react,
+.fa-server {
+  color: #0D7DFA;
+  margin: 5px 0;
+}
+
+.empty-div {
+  width: 4em;
+  height: 2.5px;
+  margin-left: 15px;
+  background-color: #2E344E;
+}
+
+.description {
+  padding: 10px;
+  color: #A0AEC0;
+}
 </style>
