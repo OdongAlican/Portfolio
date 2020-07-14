@@ -127,6 +127,61 @@
             </div>
           </div>
         </div>
+        <div class="services">
+          <h1>
+            REVIEWS
+          </h1>
+        </div>
+        <div class="inner-section new-section">
+          <div class="middle-section"></div>
+        </div>
+        <div class="reviews-section">
+          <div class="review-item">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <h5>BY: <span>Fred Oketa</span></h5>
+          </div>
+          <div class="review-item">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <h5>BY: <span>Justine Zillah</span></h5>
+          </div>
+          <div class="review-item">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <h5>BY: <span>Raj Das</span></h5>
+          </div>
+          <div class="review-item">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <h5>BY: <span>Rahma Halane</span></h5>
+          </div>
+          <div class="review-item">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <h5>BY: <span>Raul Figueroa Soto</span></h5>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -246,15 +301,15 @@
 }
 
 .sections {
-  height: 170vh;
+  height: 200vh;
 }
 
 .services {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .new-section {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .service-section {
@@ -295,5 +350,32 @@
 .description {
   padding: 10px;
   color: #A0AEC0;
+}
+
+.reviews-section {
+  display: flex;
+  margin-top: 20px;
+  max-height: 150px;
+  overflow-x: auto;
+  cursor: pointer;
+  font-family: Nunito,sans-serif;
+  color: #A0AEC0;
+}
+
+.reviews-section::-webkit-scrollbar{
+  width: 0;
+}
+
+.review-item {
+  min-width: 450px;
+  height: 150px;
+  background-color: #191D2B;
+  border-left: 4px solid #2E344E;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.review-item span {
+  color: #0D7DFA;
 }
 </style>
