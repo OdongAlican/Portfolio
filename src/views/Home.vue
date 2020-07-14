@@ -61,6 +61,12 @@ export default {
   justify-content: center;
 }
 
+.sections {
+  position: absolute;
+  width: 81%;
+  right: 0;
+}
+
 .social-media div {
   display: flex;
   border-radius: 50%; 

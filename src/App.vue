@@ -62,6 +62,8 @@ body {
   height: 100vh;
   width: 19%;
   border: 1px solid #2E344E;
+  position: fixed;
+  left: 0;
 }
 
 .copyright {
@@ -87,9 +89,9 @@ body {
   border: 7px solid #2E344E;
   background-color: #fff;
   border-radius: 50%;
-  width: 14.5em;
-  height: 14.5em;
-  background-image: url("../public/test.png"); 
+  width: 150px;
+  height: 150px;
+  background-image: url("../public/image.png"); 
   background-size: cover;
   background-repeat: no-repeat;
 }
