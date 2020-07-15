@@ -45,6 +45,9 @@
               </label>
               <textarea name="" id="" cols="30" rows="8"></textarea>
             </div>
+            <button>
+              SEND MAIL
+            </button>
           </div>
           <div class="right-contact">
             <div class="phone-contact first-part">
@@ -89,7 +92,7 @@
 <style scoped>
 
 .sections {
-  height: 100vh;
+  height: 125vh;
 }
 
 .contact-details {
@@ -180,6 +183,18 @@
 
 .first-part {
   margin-bottom: 20px;
+}
+
+button {
+  background-color: #0D7DFA;
+  border: none;
+  width: 120px;
+  height: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 </style>

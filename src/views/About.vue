@@ -76,9 +76,9 @@
               <h5>: Available</h5>
               </div>
             </div>
-            <div class="cv-download ml-2 mt-2">
-              <span>DOWNLOAD CV</span>
-            </div>
+            <button class="cv-download ml-2 mt-2">
+              DOWNLOAD CV
+            </button>
           </div>
         </div>
         <div class="services">
@@ -91,7 +91,7 @@
         </div>
         <div class="service-section mt-4">
           <div class="front-end grid-section">
-            <i class="fab fa-accusoft fa-3x"></i>
+            <i class="fab fa-accusoft"></i>
             <h5>Web Design</h5>
             <div class="empty-div"></div>
             <div class="description">
@@ -103,8 +103,8 @@
               </p>
             </div>
           </div>
-          <div class="back-end grid-section mx-4">
-            <i class="fab fa-react fa-3x"></i>
+          <div class="back-end grid-section">
+            <i class="fab fa-react "></i>
             <h5>Web Development(Front End)</h5>
             <div class="empty-div"></div>
             <div class="description">
@@ -115,7 +115,7 @@
             </div>
           </div>
           <div class="articles grid-section">
-            <i class="fas fa-server fa-3x"></i>
+            <i class="fas fa-server"></i>
             <h5>Web Development(Backend End)</h5>
             <div class="empty-div"></div>
             <div class="description">
@@ -239,23 +239,19 @@
 
 .cv-download {
   background-color: #0D7DFA;
-  height: 4em;
-  width: 13em;
+  height: 50px;
+  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-}
-
-.cv-download :hover {
-  border-bottom: 2px solid #EDF2F7;
-}
-.cv-download span {
   color: #EDF2F7;
+  border: none;
+  font-size: 14px;
 }
 
 .sections {
-  height: 208vh;
+  height: 215vh;
 }
 
 .services {
@@ -292,6 +288,7 @@
 .fa-server {
   color: #0D7DFA;
   margin: 5px 0;
+  font-size: 44px;
 }
 
 .empty-div {
@@ -304,6 +301,7 @@
 .description {
   padding: 10px;
   color: #A0AEC0;
+  font-size: 14px;
 }
 
 .reviews-section {
@@ -327,9 +325,46 @@
   border-left: 4px solid #2E344E;
   margin-right: 30px;
   padding: 10px;
+  font-size: 14px;
 }
 
 .review-item span {
   color: #0D7DFA;
 }
+
+.back-end {
+  margin: 0 10px;
+}
+@media only screen and (max-width: 780px) {
+    .details {
+      flex-direction: column;
+    }
+
+    .details .image-section {
+      width: 70%;
+      height: 500px;
+      margin: auto;
+      
+    }
+
+    .details .details-section {
+      width: 90%;
+      margin: auto;
+    }
+
+    .service-section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .grid-section {
+      width: 100%;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+
+    .sections {
+  height: 455vh;
+}
+  }
 </style>
