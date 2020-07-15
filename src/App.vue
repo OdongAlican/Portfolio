@@ -110,4 +110,51 @@ body {
   background-color: #0D7DFA;
   color: #fff;
 } 
+
+.main-content {
+  position: absolute;
+  width: 77em;
+  margin: 8em 1.5em;
+}
+
+.about{
+  overflow: auto;
+  position: absolute;
+  width: 81%;
+  right: 0;
+}
+
+.home {
+  top: 0;
+  padding: 0;
+}
+
+.about h1 {
+  font-family: Nunito,sans-serif;
+  position: absolute;
+  font-size: 70px;
+  margin-top: 140px;
+  color: #151621;
+}
+
+.home h1 {
+  font-size: 45px;
+  margin-top: 0;
+  color: #EDF2F7;
+}
+
+.inner-section {
+  width: 7em;
+  height: 5px;
+  background-color: #18315E;
+  border-radius: 10px;
+  margin-top: 5.5em;
+}
+
+.middle-section {
+  width: 40%;
+  border-radius: 10px;
+  height: 5px;
+  background-color: #0D7DFA;
+}
 </style>
