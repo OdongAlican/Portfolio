@@ -103,12 +103,97 @@
           <h3>Working Experience</h3>
         </div>
         <div class="experience-section">
+          <div class="dummy-div"></div>
           <div class="left-section">
             <span>2018 - Present</span>
           </div>
           <div class="right-section">
             <h5>Frontend Web Developer</h5>
             <span>Abc Company</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Quas, magni mollitia, aspernatur consequatur accusamus 
+              vero eum facere exercitationem velit suscipit ipsam placeat 
+              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
+            </p>
+          </div>
+        </div>
+        <div class="experience-section">
+          <div class="dummy-div"></div>
+          <div class="left-section">
+            <span>2018 - Present</span>
+          </div>
+          <div class="right-section">
+            <h5>Frontend Web Developer</h5>
+            <span>Abc Company</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Quas, magni mollitia, aspernatur consequatur accusamus 
+              vero eum facere exercitationem velit suscipit ipsam placeat 
+              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
+            </p>
+          </div>
+        </div>
+        <div class="experience-section">
+          <div class="dummy-div"></div>
+          <div class="left-section">
+            <span>2018 - Present</span>
+          </div>
+          <div class="right-section">
+            <h5>Frontend Web Developer</h5>
+            <span>Abc Company</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Quas, magni mollitia, aspernatur consequatur accusamus 
+              vero eum facere exercitationem velit suscipit ipsam placeat 
+              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
+            </p>
+          </div>
+        </div>
+         <div class="working-experience">
+           <i class="fas fa-book"></i>
+          <h3>Educational Qualifications</h3>
+        </div>
+        <div class="experience-section">
+          <div class="dummy-div"></div>
+          <div class="left-section">
+            <span>2018 - Present</span>
+          </div>
+          <div class="right-section">
+            <h5>Bachelor Degree</h5>
+            <span>Kyambogo University</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Quas, magni mollitia, aspernatur consequatur accusamus 
+              vero eum facere exercitationem velit suscipit ipsam placeat 
+              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
+            </p>
+          </div>
+        </div>
+        <div class="experience-section">
+          <div class="dummy-div"></div>
+          <div class="left-section">
+            <span>2018 - Present</span>
+          </div>
+          <div class="right-section">
+            <h5>Ordinary Diploma</h5>
+            <span>Kyambogo University</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Quas, magni mollitia, aspernatur consequatur accusamus 
+              vero eum facere exercitationem velit suscipit ipsam placeat 
+              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
+            </p>
+          </div>
+        </div>
+        <div class="experience-section">
+          <div class="dummy-div"></div>
+          <div class="left-section">
+            <span>2018 - Present</span>
+          </div>
+          <div class="right-section">
+            <h5>Advanced Level Certificate</h5>
+            <span>St. Peters Naalya</span>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Quas, magni mollitia, aspernatur consequatur accusamus 
@@ -124,7 +209,7 @@
 <style scoped>
 
 .sections {
-  height: 200vh;
+  height: 280vh;
 }
 
 .skills-section {
@@ -197,7 +282,7 @@
   font-size: 30px;
   align-items: center;
   color: #fff;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .working-experience h3 {
@@ -209,6 +294,9 @@
   font-family: Nunito,sans-serif;
   display: flex;
   font-size: 16px;
+  padding: 2px 20px;
+  border-left: 3px solid #2E344E;
+  position: relative;
 }
 
 .experience-section .right-section {
@@ -234,5 +322,18 @@
   text-align: left;
   flex: 1;
   color: #A2A79D;
+}
+
+.dummy-div {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #2E344E;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  margin-top: 5px;
+  margin-left: -9px;
+  background-color: #10121B;
 }
 </style>
