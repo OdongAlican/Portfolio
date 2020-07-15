@@ -251,7 +251,7 @@
 }
 
 .sections {
-  height: 215vh;
+  min-height: 215vh;
 }
 
 .services {
@@ -335,13 +335,13 @@
 .back-end {
   margin: 0 10px;
 }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1024px) {
     .details {
       flex-direction: column;
     }
 
     .details .image-section {
-      width: 70%;
+      width: 90%;
       height: 500px;
       margin: auto;
       

@@ -1,14 +1,29 @@
 <template>
   <div id="app">
     <div id="nav" class="mx-0 px-0">
-        <div class=" mx-auto photo-section bg-danger">
+        <div class=" mx-auto photo-section bg-danger opposite">
         </div>
       <div class="links-section mt-4 px-1">
-        <router-link class="link" to="/">HOME</router-link>
-        <router-link class="link" to="/about">ABOUT</router-link>
-        <router-link class="link" to="/resume">RESUME</router-link>
-        <router-link class="link" to="/projects">PROJECTS</router-link>
-        <router-link class="link" to="/contacts">CONTACTS</router-link>
+        <router-link class="link" to="/">
+        <i class="fas fa-home small-screen fa-2x"></i>
+        <span class="opposite">HOME</span>
+        </router-link>
+        <router-link class="link" to="/about">
+        <i class="fas fa-address-card small-screen fa-2x"></i>
+        <span class="opposite">ABOUT</span>
+        </router-link>
+        <router-link class="link" to="/resume">
+        <i class="fas fa-info-circle small-screen fa-2x"></i>
+        <span class="opposite">RESUME</span>
+        </router-link>
+        <router-link class="link" to="/projects">
+        <i class="far fa-building small-screen fa-2x"></i>
+       <span class="opposite">PROJECTS</span>
+        </router-link>
+        <router-link class="link" to="/contacts">
+        <i class="fas fa-phone small-screen fa-2x"></i>
+        <span class="opposite">CONTACTS</span>
+        </router-link>
       </div>
       <div  class="copyright">
         <span>&copy; 2020 SoftEarthTech </span>
@@ -157,4 +172,28 @@ body {
   height: 5px;
   background-color: #0D7DFA;
 }
+
+.small-screen {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .opposite {
+    display: none;
+  }
+      .sections {
+      width: 100%;
+    }
+
+    .small-screen {
+      display: block;
+    }
+
+    .home h1 {
+      font-size: 45px;
+      margin-top: -20px;
+      color: #EDF2F7;
+    }
+}
+
 </style>
