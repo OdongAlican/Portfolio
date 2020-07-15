@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about main-section">
     <h1 class="ml-4">
       CONTACT
     </h1>
@@ -91,9 +91,6 @@
 </template>
 <style scoped>
 
-.sections {
-  height: 125vh;
-}
 
 .contact-details {
   display: flex;
@@ -114,7 +111,8 @@
   background-color: transparent;
   color: #A2A79D;
   width: 100%;
-  padding: 5px 5px;
+  background-color: #10121B;
+  padding: 5px 5px
 }
 
 .name input {

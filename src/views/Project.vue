@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about main-section">
     <h1 class="ml-4">
       PROJECTS
     </h1>
@@ -77,9 +77,7 @@
 </template>
 <style scoped>
 
-.sections {
-  height: 150vh;
-}
+
 
 .projects-section {
   display: grid;

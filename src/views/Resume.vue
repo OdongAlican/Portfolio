@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about main-section">
     <h1 class="ml-4">
       MY SKILLS
     </h1>
@@ -207,10 +207,6 @@
   </div>
 </template>
 <style scoped>
-
-.sections {
-  height: 280vh;
-}
 
 .skills-section {
   display: flex;

@@ -45,6 +45,16 @@
 body {
   font-size: 1vw;
 }
+.main-section {
+  height: 100%;
+  width: 100%;
+}
+.sections {
+  position: absolute;
+  width: 100%;
+  background-color: #10121B;
+  overflow-y: auto;
+}
 
 #app {
   text-align: center;
@@ -90,10 +100,6 @@ body {
   width: 81%;
 }
 
-.sections {
-  background-color: #10121B;
-}
-
 #nav a {
   color: #aaa;
 }
@@ -133,7 +139,6 @@ body {
 }
 
 .about{
-  overflow: auto;
   position: absolute;
   width: 81%;
   right: 0;
@@ -142,6 +147,7 @@ body {
 .home {
   top: 0;
   padding: 0;
+  bottom: 0;
 }
 
 .about h1 {

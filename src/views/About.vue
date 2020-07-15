@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about main-section">
     <h1 class="ml-4">
       ABOUT ME
     </h1>
@@ -250,10 +250,6 @@
   font-size: 14px;
 }
 
-.sections {
-  min-height: 215vh;
-}
-
 .services {
   margin-top: 40px;
 }
@@ -363,8 +359,5 @@
       margin-bottom: 10px;
     }
 
-    .sections {
-  height: 455vh;
-}
   }
 </style>
