@@ -231,11 +231,12 @@
   font-family: Nunito,sans-serif;
   align-items: center;
   background-color: #151621;
+  width: 100%;
 }
 
 .inner-section-html,
 .inner-section-css {
-  width: 25em;
+  width: 89%;
   background-color: #2E344E;
   height: 7px;
   margin-left: 10px;
@@ -335,5 +336,21 @@
   margin-top: 5px;
   margin-left: -9px;
   background-color: #10121B;
+}
+
+@media only screen and (max-width: 1024px) {
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .inner-skills {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .experience-section {
+    flex-direction: column;
+  }
 }
 </style>

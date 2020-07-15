@@ -155,4 +155,30 @@
   background-color: #2E344E;
   left: 0;
 }
+
+@media only screen and (max-width: 1024px) {
+  .projects-section {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin: auto;
+  }
+
+  .project-grid {
+    margin-top: 10px;
+  }
+
+  .blog-section {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .blog-grid {
+    margin-top: 10px;
+  }
+  
+}
 </style>
