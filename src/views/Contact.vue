@@ -197,4 +197,16 @@ button {
   cursor: pointer;
 }
 
+
+@media only screen and (max-width: 1024px) {
+  .contact-details {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .right-contact {
+    margin-top: 20px;
+  }
+}
+
 </style>
