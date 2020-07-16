@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav" class="mx-0 px-0">
       <div class="top-image">
-        <div class=" mx-auto photo-section bg-danger opposite">
+        <div class=" mx-auto photo-section opposite">
         </div>
       </div>
       <div class="links-section mt-4 px-1">
