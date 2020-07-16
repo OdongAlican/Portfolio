@@ -190,7 +190,7 @@
 
 .image-section {
   margin-top: 20px;
-  background-image: url("../../public/img.jpg");
+  background-image: url("../../public/potrait.png");
   height: 32em;
   width: 30em;
   background-size: cover;
