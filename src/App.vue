@@ -122,9 +122,6 @@ body {
   cursor: pointer;
 }
 
-.link :hover {
-  background-color: #fff;
-}
 
 #nav a.router-link-exact-active {
   background-color: #0D7DFA;

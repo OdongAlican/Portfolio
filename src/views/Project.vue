@@ -19,31 +19,34 @@
           <div class="middle-section"></div>
         </div>
         <div class="projects-section">
-          <div class="project-grid html-capstone">
-            <div class="project-title">
-              <p>
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
           <div class="project-grid ruby-capstone">
             <div class="project-title">
               <p>
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ruby on Rails Project for creating Categories and Articles.
+                <a href="https://guarded-refuge-63992.herokuapp.com/" target="_blank">View Project</a>
               </p>
             </div>
           </div>
-          <div class="project-grid rails-captone">
+          <div class="project-grid html-capstone">
             <div class="project-title">
               <p>
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Front end Project for Posting Course with HTML and CSS.
+                <a href="https://raw.githack.com/OdongAlican/courses-guide/develop/" target="_blank">View Project</a>
+              </p>
+            </div>
+          </div>
+          <div class="project-grid bootstrap-captone">
+            <div class="project-title">
+              <p>
+                Bootstrap based Project cloaning Newseek Home Page.
+                <a href="https://raw.githack.com/OdongAlican/newsweek.com-home-page/develop/" target="_blank">View Project</a>
               </p>
             </div>
           </div>
         </div>
         <div class="blogs-header">
           <h1>
-            BLOGS
+            ARTICLES
           </h1>
         </div>
         <div class="inner-section blogs">
@@ -52,21 +55,25 @@
           </div>
         </div>
         <div class="blog-section">
-          <div class="blog-grid first-blog">
+          <div class="blog-grid first-blog medium">
             <div class="blog-title-section">
               <p>
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation 
-                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                How can one achieve proper elements alignment on a web-page?
+                Having a wonderful looking page using Grid or Flex-Boxes ...
+                <a href="https://medium.com/@sandieo.2020/how-can-one-achieve-proper-elements-alignment-on-a-web-page-8e1a9618bfb2" target="_blank">
+                  Read More
+                </a>
               </p>
             </div>
           </div>
-          <div class="blog-grid first-blog">
+          <div class="blog-grid first-blog wordpress">
             <div class="blog-title-section">
               <p>
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation 
-                ullamco laboris nisi ut aliquip ex ea commodo consequat
+                Managing relationship among various collections in mongo database with Express/Js
+                This involves attaching a created Post to its author ...
+                <a href="https://blog.learningdollars.com/2020/04/26/relationship-in-mongodb-using-node-expressjs/" target="_blank">
+                  Read More
+                </a>
               </p>
             </div>
           </div>
@@ -94,7 +101,7 @@
 }
 
 .html-capstone {
-  background-image: url("../../public/Home_page.png");
+  background-image: url("../../public/Courses_Desktop.png");
   background-size: cover;
   position: relative;
 }
@@ -105,8 +112,8 @@
   background-size: cover;
 }
 
-.rails-captone {
-  background-image: url("../../public/Home_page.png");
+.bootstrap-captone {
+  background-image: url("../../public/Screen-Shot.png");
   position: relative;
   background-size: cover;
 }
@@ -134,6 +141,16 @@
   margin-top: 20px;
   font-family: Nunito,sans-serif;
   font-size: 14px;
+}
+
+.medium {
+  background-image: url("../../public/chess.jpeg");
+  background-size: cover;
+}
+
+.wordpress {
+  background-image: url("../../public/mongo.jpg");
+  background-size: cover;
 }
 
 .blog-grid {
