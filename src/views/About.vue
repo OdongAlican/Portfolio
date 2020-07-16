@@ -138,30 +138,15 @@
         <div class="reviews-section">
           <div class="review-item">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat
+              Sunday is a proactive, self-motivated individual always working hard to meet
+              his goals. He is excellent in problem solving and very open to trying new things to achieve the set goals.
+              He is great at communication and critical at thinking.
             </p>
-            <h5>BY: <span>Fred Oketa</span></h5>
-          </div>
-          <div class="review-item">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat
-            </p>
-            <h5>BY: <span>Justine Zillah</span></h5>
-          </div>
-          <div class="review-item">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat
-            </p>
-            <h5>BY: <span>Raj Das</span></h5>
+            <h5>BY: <span>
+              <a href="https://www.linkedin.com/in/phylis-chepchumba/" target="_blank">
+                Phylis Chepchumba
+              </a>
+              </span></h5>
           </div>
           <div class="review-item">
             <p>
