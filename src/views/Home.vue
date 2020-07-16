@@ -15,13 +15,19 @@
       <p> React apps and CSS & HTML that just work across all platforms and browsers</p>
       <div class="social-media d-flex">
         <div class="linkedIn">
-          <i class="fab fa-linkedin-in fa-lg"></i>
+          <a href="https://www.linkedin.com/in/sunday-alican-odong-b99226b7/" target="_blank">
+            <i class="fab fa-linkedin-in fa-lg"></i>
+          </a>
         </div>
         <div class="twitter  mx-2">
-          <i class="fab fa-twitter fa-lg"></i>
+          <a href="https://twitter.com/odongsandie" target="_blank">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
         </div>
         <div class="github">
-          <i class="fab fa-github fa-lg"></i>
+          <a href="https://github.com/OdongAlican" target="_blank">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
         </div>
       </div>
     </div>

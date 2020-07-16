@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <div id="nav" class="mx-0 px-0">
+      <div class="top-image">
         <div class=" mx-auto photo-section bg-danger opposite">
         </div>
+      </div>
       <div class="links-section mt-4 px-1">
         <router-link class="link" to="/">
         <i class="fas fa-home small-screen fa-2x"></i>
@@ -110,7 +112,6 @@ body {
   height: 150px;
   background-image: url("../public/image.png"); 
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .link {

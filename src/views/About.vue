@@ -32,48 +32,48 @@
               <div class="first">
                 <span>Title</span>
               </div>
-              <div>
-                <h5>: Mr.</h5>
+              <div class="second-partial">
+                <p>: Mr.</p>
               </div>
             </div>
             <div class="partial name d-flex">
               <div class="first">
                 <span>Full Name</span>
               </div>
-              <div>
-                <h5>: Sunday Odong</h5>
+              <div class="second-partial">
+                <p>: Sunday Odong</p>
               </div>
             </div>
             <div class="partial nationality my-2 d-flex">
               <div class="first">
               <span>Nationality</span>
               </div>
-              <div>
-              <h5>: Ugandan</h5>
+              <div class="second-partial">
+              <p>: Ugandan</p>
               </div>
             </div>
             <div class="partial language d-flex">
               <div class="first">
               <span>Languages </span>
               </div>
-              <div>
-              <h5>: English, German, Luo</h5>
+              <div class="second-partial">
+              <p>: English, German, Luo</p>
               </div>
             </div>
             <div class="partial address my-2 d-flex">
               <div class="first">
               <span>Address</span>
               </div>
-              <div>
-              <h5>: Plot 19, Obiya Road Gulu, Uganda</h5>
+              <div class="second-partial">
+              <p>: Plot 19, Obiya Road Gulu, Uganda</p>
               </div>
             </div>
             <div class="partial frelance d-flex">
               <div class="first">
               <span>Freelance</span>
               </div>
-              <div>
-              <h5>: Available</h5>
+              <div class="second-partial">
+              <p>: Available</p>
               </div>
             </div>
             <button class="cv-download ml-2 mt-2">
@@ -227,6 +227,15 @@
   width: 35%;
   display: flex;
   justify-content: flex-start;
+  flex: 1;
+  overflow-x: auto;
+}
+
+.second-partial {
+  flex: 3;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
 }
 
 .partial {
@@ -314,6 +323,15 @@
   width: 0;
 }
 
+.second-partial::-webkit-scrollbar{
+  width: 0;
+}
+
+.partial .first::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 .review-item {
   min-width: 450px;
   height: 150px;
@@ -358,6 +376,12 @@
       margin: auto;
       margin-bottom: 10px;
     }
-
+    .partial .first span{
+      font-size: 13px;
+    }
+    .partial .first {
+      display: flex;
+      align-items: center;
+    }
   }
 </style>
