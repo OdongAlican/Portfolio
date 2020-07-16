@@ -105,48 +105,49 @@
         <div class="experience-section">
           <div class="dummy-div"></div>
           <div class="left-section">
-            <span>2018 - Present</span>
+            <span>2020 - Present</span>
           </div>
           <div class="right-section">
-            <h5>Frontend Web Developer</h5>
-            <span>Abc Company</span>
+            <h5>Full-Stack Web Developer</h5>
+            <span>Learning Dollas Talent (LDT)</span>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Quas, magni mollitia, aspernatur consequatur accusamus 
-              vero eum facere exercitationem velit suscipit ipsam placeat 
-              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
+              My role at LDT is a fullstack software Developer, Practising
+              Node JS frame work of Express for Server side language and 
+              Vue JS Javascript framework for the front-end. This role is mainly freelance
+              based programming and blogs writing.
             </p>
           </div>
         </div>
         <div class="experience-section">
           <div class="dummy-div"></div>
           <div class="left-section">
-            <span>2018 - Present</span>
+            <span>2019 - 2020</span>
           </div>
           <div class="right-section">
-            <h5>Frontend Web Developer</h5>
-            <span>Abc Company</span>
+            <h5>Full-Stack Web Developer</h5>
+            <span>Refactory Uganda (Bootcamp)</span>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Quas, magni mollitia, aspernatur consequatur accusamus 
-              vero eum facere exercitationem velit suscipit ipsam placeat 
-              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
+              At Refactory Uganda, I was involved in a three months 
+              softskills training (including lean and Agile methodologies of web development) 
+              and an intense six (6) months Bootcamp
+              practising web development in Javascript (Vue Js) and Express JS for 
+              Ugandan based companies.
             </p>
           </div>
         </div>
         <div class="experience-section">
           <div class="dummy-div"></div>
           <div class="left-section">
-            <span>2018 - Present</span>
+            <span>2017(April) - 2017(September)</span>
           </div>
           <div class="right-section">
-            <h5>Frontend Web Developer</h5>
-            <span>Abc Company</span>
+            <h5>Base Station Transciever (BTS) Maintenance</h5>
+            <span>Netis Uganda (Intern)</span>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Quas, magni mollitia, aspernatur consequatur accusamus 
-              vero eum facere exercitationem velit suscipit ipsam placeat 
-              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
+              NETIS is a telecommunications Company based in Uganda in charge of 
+              maintaining a number of telecommunications sites within the country.
+              My role as an intern was to maintain the various equipment within
+              the base stations.
             </p>
           </div>
         </div>
@@ -157,48 +158,35 @@
         <div class="experience-section">
           <div class="dummy-div"></div>
           <div class="left-section">
-            <span>2018 - Present</span>
+            <span>2020 - Present</span>
+          </div>
+          <div class="right-section">
+            <h5>Full-Stack Web Development</h5>
+            <span>Microverse</span>
+            <p>
+              At microverse, I am Learning fullstack Web Development in Ruby,
+              Ruby on Rails, Javascript, React  &#38; Redux, MYSQL, HTML and CSS. The course 
+              also includes testing of the written code and pair programming.
+              Microverse also ensure that students have professional skills besides 
+              technical skills which is also included in the course.
+            </p>
+          </div>
+        </div>
+        <div class="experience-section">
+          <div class="dummy-div"></div>
+          <div class="left-section">
+            <span>2015 - 2018</span>
           </div>
           <div class="right-section">
             <h5>Bachelor Degree</h5>
-            <span>Kyambogo University</span>
+            <span>Kyambogo University Uganda</span>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Quas, magni mollitia, aspernatur consequatur accusamus 
-              vero eum facere exercitationem velit suscipit ipsam placeat 
-              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
-            </p>
-          </div>
-        </div>
-        <div class="experience-section">
-          <div class="dummy-div"></div>
-          <div class="left-section">
-            <span>2018 - Present</span>
-          </div>
-          <div class="right-section">
-            <h5>Ordinary Diploma</h5>
-            <span>Kyambogo University</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Quas, magni mollitia, aspernatur consequatur accusamus 
-              vero eum facere exercitationem velit suscipit ipsam placeat 
-              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
-            </p>
-          </div>
-        </div>
-        <div class="experience-section">
-          <div class="dummy-div"></div>
-          <div class="left-section">
-            <span>2018 - Present</span>
-          </div>
-          <div class="right-section">
-            <h5>Advanced Level Certificate</h5>
-            <span>St. Peters Naalya</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Quas, magni mollitia, aspernatur consequatur accusamus 
-              vero eum facere exercitationem velit suscipit ipsam placeat 
-              libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
+              At Kyambogo University Uganda, I was rewarded with a Bachelor
+              Degree in Telecommunications Engineering. 
+              Telecommunications Engineering is an engineering discipline 
+              centered on electrical and computer engineering which seeks to 
+              support and enhance telecommunication systems. The work 
+              ranges from basic circuit design to strategic mass developments.
             </p>
           </div>
         </div>

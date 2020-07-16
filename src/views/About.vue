@@ -165,21 +165,32 @@
           </div>
           <div class="review-item">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat
+            I had the pleasure of having Sunday as a standup team member in the microverse program. 
+            I was particularly impressed by his problem-solving ability 
+            which seemed to come naturally to him whenever we had mob programming sessions.
             </p>
-            <h5>BY: <span>Rahma Halane</span></h5>
+            <h5>BY: 
+              <span>
+                <a href="https://www.linkedin.com/in/rahmahalane/" target="_blank">
+                Rahma Halane
+                </a>
+              </span>
+            </h5>
           </div>
           <div class="review-item">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat
+              I have experienced how a good team member Sunday is, 
+              He is a very reliable and responsible partner. He always 
+              soften the working space atmosphere with his presence 
+              and makes you feel He will always be one click away for you.
             </p>
-            <h5>BY: <span>Raul Figueroa Soto</span></h5>
+            <h5>BY: 
+                <span>
+                  <a href="https://www.linkedin.com/in/luis-raul-figueroa-soto-63411118a/" target="_blank">
+                    Raul Figueroa Soto
+                  </a>
+                </span>
+              </h5>
           </div>
         </div>
       </div>
