@@ -46,14 +46,19 @@ body {
   font-size: 1vw;
 }
 .main-section {
-  height: 100%;
+  position: absolute;
   width: 100%;
+  overflow-y: auto;
+  right: 0;
+  top: 0;
+  height: 100%;
 }
 .sections {
   position: absolute;
   width: 100%;
   background-color: #10121B;
   overflow-y: auto;
+  height: 100%;
 }
 
 #app {
@@ -69,13 +74,6 @@ body {
   border-top: 1px solid #2E344E;
   border-bottom: 1px solid #2E344E;
   padding: 4em 0;
-}
-
-.background-section {
-  position: relative;
-  border-right: 1px solid #2E344E;
-  display: flex;
-  flex-direction: row;
 }
 
 #nav {
@@ -135,7 +133,7 @@ body {
 .main-content {
   position: absolute;
   width: 77em;
-  margin: 8em 1.5em;
+  margin: 3em 1.5em;
 }
 
 .about{
