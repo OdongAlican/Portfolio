@@ -71,10 +71,10 @@
             <h5>Javascript</h5>
             <div class="inner-skills">
               <div class="percentage ">
-                70%
+                80%
               </div>
               <div class="inner-section-html">
-                <div class="middle-section-html javascript"></div>
+                <div class="middle-section-html ruby"></div>
               </div>
             </div>
           </div>
@@ -82,10 +82,10 @@
             <h5>React &#38; Redux</h5>
             <div class="inner-skills">
               <div class="percentage">
-                50%
+                80%
               </div>
               <div class="inner-section-css">
-                <div class="middle-section-css react"></div>
+                <div class="middle-section-css ruby"></div>
               </div>
             </div>
           </div>

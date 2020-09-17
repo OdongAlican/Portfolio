@@ -70,7 +70,7 @@
             </div>
             <div class="partial frelance d-flex">
               <div class="first">
-              <span>Freelance</span>
+              <span>Full-Time</span>
               </div>
               <div class="second-partial">
               <p>: Available</p>
