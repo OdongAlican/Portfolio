@@ -29,6 +29,23 @@
       </div>
       <div  class="copyright">
         <span>&copy; 2020 SoftEarthTech </span>
+        <div class="social-media-footer">
+          <div class="linkedIn-footer p-1">
+            <a href="https://www.linkedin.com/in/sunday-alican-odong-b99226b7/" target="_blank">
+              <i class="fab fa-linkedin-in fa-sm"></i>
+            </a>
+          </div>
+          <div class="twitter-footer p-1 ">
+            <a href="https://twitter.com/odongsandie" target="_blank">
+              <i class="fab fa-twitter fa-sm"></i>
+            </a>
+          </div>
+          <div class="github-footer p-1">
+            <a href="https://github.com/OdongAlican" target="_blank">
+              <i class="fab fa-github fa-sm"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="mx-0 px-0 right-section">
@@ -91,9 +108,12 @@ body {
 }
 
 .copyright {
-  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-size: 14px;
   color: #fff;
+  height: 100%;
 }
 
 .right-section {
@@ -179,6 +199,23 @@ body {
   display: none;
 }
 
+.linkedIn-footer,
+.twitter-footer,
+.github-footer {
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
+.social-media-footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.twitter-footer  {
+  margin: 0 10px;
+}
+
 @media only screen and (max-width: 1024px) {
   .opposite {
     display: none;
@@ -196,6 +233,19 @@ body {
       margin-top: -20px;
       color: #EDF2F7;
     }
+}
+
+@media only screen and (max-width: 500px) {
+  .social-media-footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .twitter-footer,
+  .linkedIn-footer,
+  .github-footer {
+  margin: 2px 15px
+}
 }
 
 </style>

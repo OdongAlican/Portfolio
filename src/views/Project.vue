@@ -19,28 +19,143 @@
           <div class="middle-section"></div>
         </div>
         <div class="projects-section">
+          <div class="project-grid final-capstone">
+            <div class="project-title">
+              <span>
+                  Tracking Application (React and Rails).
+              </span>
+              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+                <div>
+                    <a href="https://trackingappk.herokuapp.com/" target="_blank">Live Link</a>
+                </div>
+              <div class="ml-4">
+                    <a href="https://github.com/OdongAlican/track-it-front-end" target="_blank">Github Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-grid weather-capstone">
+            <div class="project-title">
+              <span>
+                Weather Application (Javascript).
+              </span>
+              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+                <div>
+                    <a href="https://rawcdn.githack.com/OdongAlican/weather-app/b1d0e5eb14c1bc473871afa73f803e2375bd3f62/dist/index.html" target="_blank">Live Link</a>
+                </div>
+                <div class="ml-4">
+                    <a href="https://github.com/OdongAlican/weather-app" target="_blank">Github Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-grid restaurant-captone">
+            <div class="project-title">
+              <span>
+                Restaurant Page(Javascript).
+              </span>
+              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+                <div>
+                    <a href="https://rawcdn.githack.com/OdongAlican/alican-restaurant/036e7c0f75222c583ea6e74bdd5d4f2a404115a2/dist/index.html" target="_blank">Live Link</a>
+                </div>
+                <div class="ml-4">
+                    <a href="https://github.com/OdongAlican/alican-restaurant" target="_blank">Github Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects-section">
+          <div class="project-grid game-capstone">
+            <div class="project-title">
+              <span>
+                  Phaser Game (Javascript).
+              </span>
+              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+                <div>
+                    <a href="https://stormy-thicket-31990.herokuapp.com/" target="_blank">Live Link</a>
+                </div>
+              <div class="ml-4">
+                    <a href="https://github.com/OdongAlican/phaser-gmae" target="_blank">Github Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-grid recipies-capstone">
+            <div class="project-title">
+              <span>
+                Stores Application (React & Redux).
+              </span>
+              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+                <div>
+                    <a href="https://online-str-app.herokuapp.com/" target="_blank">Live Link</a>
+                </div>
+                <div class="ml-4">
+                    <a href="https://github.com/OdongAlican/catalogue-of-recipes" target="_blank">Github Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-grid calculator-captone">
+            <div class="project-title">
+              <span>
+                Restaurant Page(Javascript).
+              </span>
+              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+                <div>
+                    <a href="https://odongalican.github.io/calculator/" target="_blank">Live Link</a>
+                </div>
+                <div class="ml-4">
+                    <a href="https://github.com/OdongAlican/calculator" target="_blank">Github Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects-section">
           <div class="project-grid ruby-capstone">
             <div class="project-title">
-              <p>
-                Ruby on Rails Project for creating Categories and Articles.
-                <a href="https://guarded-refuge-63992.herokuapp.com/" target="_blank">View Project</a>
-              </p>
+              <span>
+                  Categories and Articles Blog (Ruby on Rails).
+              </span>
+              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+                <div>
+                    <a href="https://guarded-refuge-63992.herokuapp.com/" target="_blank">Live Link</a>
+                </div>
+              <div class="ml-4">
+                    <a href="https://github.com/OdongAlican/articles-capstone-project" target="_blank">Github Repository</a>
+                </div>
+              </div>
             </div>
           </div>
           <div class="project-grid html-capstone">
             <div class="project-title">
-              <p>
-                Front end Project for Posting Course with HTML and CSS.
-                <a href="https://raw.githack.com/OdongAlican/courses-guide/develop/" target="_blank">View Project</a>
-              </p>
+              <span>
+                Posting Course Website (HTML and CSS).
+              </span>
+              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+                <div>
+                    <a href="https://raw.githack.com/OdongAlican/courses-guide/develop/" target="_blank">Live Link</a>
+                </div>
+                <div class="ml-4">
+                    <a href="https://github.com/OdongAlican/courses-guide" target="_blank">Github Repository</a>
+                </div>
+              </div>
             </div>
           </div>
           <div class="project-grid bootstrap-captone">
             <div class="project-title">
-              <p>
-                Bootstrap based Project cloaning Newseek Home Page.
-                <a href="https://raw.githack.com/OdongAlican/newsweek.com-home-page/develop/" target="_blank">View Project</a>
-              </p>
+              <span>
+                Cloaning Newseek Home Page(Bootstrap).
+              </span>
+              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+                <div>
+                    <a href="https://raw.githack.com/OdongAlican/newsweek.com-home-page/develop/" target="_blank">Live Link</a>
+                </div>
+                <div class="ml-4">
+                    <a href="https://github.com/OdongAlican/newsweek.com-home-page" target="_blank">Github Repository</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -112,8 +227,44 @@
   background-size: cover;
 }
 
+.final-capstone {
+  background-image: url("../../public/track_it.png");
+  position: relative;
+  background-size: cover;
+}
+
+.weather-capstone {
+  background-image: url("../../public/weather_app.png");
+  position: relative;
+  background-size: cover;
+}
+
+.restaurant-captone {
+  background-image: url("../../public/restaurant.png");
+  position: relative;
+  background-size: cover;
+}
+
+.game-capstone {
+  background-image: url("../../public/phaser.png");
+  position: relative;
+  background-size: cover;
+}
+
 .bootstrap-captone {
   background-image: url("../../public/Screen-Shot.png");
+  position: relative;
+  background-size: cover;
+}
+
+.recipies-capstone {
+  background-image: url("../../public/recipies.png");
+  position: relative;
+  background-size: cover;
+}
+
+.calculator-captone {
+  background-image: url("../../public/calculator.png");
   position: relative;
   background-size: cover;
 }

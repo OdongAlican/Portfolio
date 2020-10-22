@@ -16,17 +16,17 @@
       <div class="social-media d-flex">
         <div class="linkedIn">
           <a href="https://www.linkedin.com/in/sunday-alican-odong-b99226b7/" target="_blank">
-            <i class="fab fa-linkedin-in fa-lg"></i>
+            <i class="fab fa-linkedin-in"></i>
           </a>
         </div>
         <div class="twitter  mx-2">
           <a href="https://twitter.com/odongsandie" target="_blank">
-            <i class="fab fa-twitter fa-lg"></i>
+            <i class="fab fa-twitter"></i>
           </a>
         </div>
         <div class="github">
           <a href="https://github.com/OdongAlican" target="_blank">
-            <i class="fab fa-github fa-lg"></i>
+            <i class="fab fa-github"></i>
           </a>
         </div>
       </div>
@@ -49,6 +49,10 @@ export default {
   font-weight: 900;
   margin: 17em 8em 0;
   color: #fff;
+}
+
+.fab {
+  font-size: 20px;
 }
 
 .main-content h1 {
