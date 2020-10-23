@@ -132,7 +132,7 @@ body {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  background-image: url("../public/test.png");
+  background-image: url("../public/test.jpg");
   background-size: cover;
 }
 

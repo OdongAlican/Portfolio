@@ -199,7 +199,7 @@
           <div class="project-grid html-capstone">
             <div class="project-title">
               <span>
-                Posting Course Website (HTML and CSS).
+                Courses Posting Website (HTML and CSS).
               </span>
               <div
                 class=" pl-2 downer-div d-flex justify-content-center align-items-center"
