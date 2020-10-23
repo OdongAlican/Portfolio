@@ -111,10 +111,10 @@
             <h5>Full-Stack Web Developer</h5>
             <span>Learning Dollas Talent (LDT)</span>
             <p>
-              My role at LDT is a fullstack software Developer, Practising
-              Node JS frame work of Express for Server side language and 
-              Vue JS Javascript framework for the front-end. This role is mainly freelance
-              based programming and blogs writing.
+              My role at LDT is a fullstack software Developer, Practising Node
+              JS frame work of Express for Server side language and Vue JS
+              Javascript framework for the front-end. This role is mainly
+              freelance based programming and blogs writing.
             </p>
           </div>
         </div>
@@ -127,11 +127,11 @@
             <h5>Full-Stack Web Developer</h5>
             <span>Refactory Uganda (Bootcamp)</span>
             <p>
-              At Refactory Uganda, I was involved in a three months 
-              softskills training (including lean and Agile methodologies of web development) 
-              and an intense six (6) months Bootcamp
-              practising web development in Javascript (Vue Js) and Express JS for 
-              Ugandan based companies.
+              At Refactory Uganda, I was involved in a three months softskills
+              training (including lean and Agile methodologies of web
+              development) and an intense six (6) months Bootcamp practising web
+              development in Javascript (Vue Js) and Express JS for Ugandan
+              based companies.
             </p>
           </div>
         </div>
@@ -144,15 +144,15 @@
             <h5>Base Station Transciever (BTS) Maintenance</h5>
             <span>Netis Uganda (Intern)</span>
             <p>
-              NETIS is a telecommunications Company based in Uganda in charge of 
-              maintaining a number of telecommunications sites within the country.
-              My role as an intern was to maintain the various equipment within
-              the base stations.
+              NETIS is a telecommunications Company based in Uganda in charge of
+              maintaining a number of telecommunications sites within the
+              country. My role as an intern was to maintain the various
+              equipment within the base stations.
             </p>
           </div>
         </div>
-         <div class="working-experience">
-           <i class="fas fa-book"></i>
+        <div class="working-experience">
+          <i class="fas fa-book"></i>
           <h3>Educational Qualifications</h3>
         </div>
         <div class="experience-section">
@@ -165,10 +165,11 @@
             <span>Microverse</span>
             <p>
               At microverse, I am Learning fullstack Web Development in Ruby,
-              Ruby on Rails, Javascript, React  &#38; Redux, MYSQL, HTML and CSS. The course 
-              also includes testing of the written code and pair programming.
-              Microverse also ensure that students have professional skills besides 
-              technical skills which is also included in the course.
+              Ruby on Rails, Javascript, React &#38; Redux, MYSQL, HTML and CSS.
+              The course also includes testing of the written code and pair
+              programming. Microverse also ensure that students have
+              professional skills besides technical skills which is also
+              included in the course.
             </p>
           </div>
         </div>
@@ -182,11 +183,11 @@
             <span>Kyambogo University Uganda</span>
             <p>
               At Kyambogo University Uganda, I was rewarded with a Bachelor
-              Degree in Telecommunications Engineering. 
-              Telecommunications Engineering is an engineering discipline 
-              centered on electrical and computer engineering which seeks to 
-              support and enhance telecommunication systems. The work 
-              ranges from basic circuit design to strategic mass developments.
+              Degree in Telecommunications Engineering. Telecommunications
+              Engineering is an engineering discipline centered on electrical
+              and computer engineering which seeks to support and enhance
+              telecommunication systems. The work ranges from basic circuit
+              design to strategic mass developments.
             </p>
           </div>
         </div>
@@ -195,7 +196,6 @@
   </div>
 </template>
 <style scoped>
-
 .skills-section {
   display: flex;
 }
@@ -206,13 +206,13 @@
   padding: 5px 0;
   margin-top: 5px;
   flex: 1;
-  color: #A1A9AC;
+  color: #a1a9ac;
 }
 
 .inner-skills {
   display: flex;
   font-size: 18px;
-  font-family: Nunito,sans-serif;
+  font-family: Nunito, sans-serif;
   align-items: center;
   background-color: #151621;
   width: 100%;
@@ -221,7 +221,7 @@
 .inner-section-html,
 .inner-section-css {
   width: 89%;
-  background-color: #2E344E;
+  background-color: #2e344e;
   height: 7px;
   margin-left: 10px;
 }
@@ -229,7 +229,7 @@
 .middle-section-html,
 .middle-section-css {
   width: 95%;
-  background-color: #0D7DFA;
+  background-color: #0d7dfa;
   height: 7px;
 }
 
@@ -262,7 +262,7 @@
 }
 
 .working-experience {
-  font-family: Nunito,sans-serif;
+  font-family: Nunito, sans-serif;
   display: flex;
   font-size: 30px;
   align-items: center;
@@ -276,22 +276,22 @@
 }
 
 .experience-section {
-  font-family: Nunito,sans-serif;
+  font-family: Nunito, sans-serif;
   display: flex;
   font-size: 16px;
   padding: 2px 20px;
-  border-left: 3px solid #2E344E;
+  border-left: 3px solid #2e344e;
   position: relative;
 }
 
 .experience-section .right-section {
   text-align: left;
   flex: 3;
-  color: #A2A79D;
+  color: #a2a79d;
 }
 
 .experience-section h5 {
-  color: #0D7DFA;
+  color: #0d7dfa;
   font-size: 27px;
 }
 
@@ -306,20 +306,20 @@
 .experience-section .left-section {
   text-align: left;
   flex: 1;
-  color: #A2A79D;
+  color: #a2a79d;
 }
 
 .dummy-div {
   position: absolute;
   width: 15px;
   height: 15px;
-  border: 3px solid #2E344E;
+  border: 3px solid #2e344e;
   border-radius: 50%;
   top: 0;
   left: 0;
   margin-top: 5px;
   margin-left: -9px;
-  background-color: #10121B;
+  background-color: #10121b;
 }
 
 @media only screen and (max-width: 1024px) {

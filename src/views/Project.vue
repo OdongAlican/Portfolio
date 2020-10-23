@@ -22,14 +22,22 @@
           <div class="project-grid final-capstone">
             <div class="project-title">
               <span>
-                  Tracking Application (React and Rails).
+                Tracking Application (React and Rails).
               </span>
-              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+              <div
+                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+              >
                 <div>
-                    <a href="https://trackingappk.herokuapp.com/" target="_blank">Live Link</a>
+                  <a href="https://trackingappk.herokuapp.com/" target="_blank"
+                    >Live Link</a
+                  >
                 </div>
-              <div class="ml-4">
-                    <a href="https://github.com/OdongAlican/track-it-front-end" target="_blank">Github Repository</a>
+                <div class="ml-4">
+                  <a
+                    href="https://github.com/OdongAlican/track-it-front-end"
+                    target="_blank"
+                    >Github Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -39,12 +47,22 @@
               <span>
                 Weather Application (Javascript).
               </span>
-              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+              <div
+                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+              >
                 <div>
-                    <a href="https://rawcdn.githack.com/OdongAlican/weather-app/b1d0e5eb14c1bc473871afa73f803e2375bd3f62/dist/index.html" target="_blank">Live Link</a>
+                  <a
+                    href="https://rawcdn.githack.com/OdongAlican/weather-app/b1d0e5eb14c1bc473871afa73f803e2375bd3f62/dist/index.html"
+                    target="_blank"
+                    >Live Link</a
+                  >
                 </div>
                 <div class="ml-4">
-                    <a href="https://github.com/OdongAlican/weather-app" target="_blank">Github Repository</a>
+                  <a
+                    href="https://github.com/OdongAlican/weather-app"
+                    target="_blank"
+                    >Github Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -54,12 +72,22 @@
               <span>
                 Restaurant Page(Javascript).
               </span>
-              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+              <div
+                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+              >
                 <div>
-                    <a href="https://rawcdn.githack.com/OdongAlican/alican-restaurant/036e7c0f75222c583ea6e74bdd5d4f2a404115a2/dist/index.html" target="_blank">Live Link</a>
+                  <a
+                    href="https://rawcdn.githack.com/OdongAlican/alican-restaurant/036e7c0f75222c583ea6e74bdd5d4f2a404115a2/dist/index.html"
+                    target="_blank"
+                    >Live Link</a
+                  >
                 </div>
                 <div class="ml-4">
-                    <a href="https://github.com/OdongAlican/alican-restaurant" target="_blank">Github Repository</a>
+                  <a
+                    href="https://github.com/OdongAlican/alican-restaurant"
+                    target="_blank"
+                    >Github Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -69,14 +97,24 @@
           <div class="project-grid game-capstone">
             <div class="project-title">
               <span>
-                  Phaser Game (Javascript).
+                Phaser Game (Javascript).
               </span>
-              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+              <div
+                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+              >
                 <div>
-                    <a href="https://stormy-thicket-31990.herokuapp.com/" target="_blank">Live Link</a>
+                  <a
+                    href="https://stormy-thicket-31990.herokuapp.com/"
+                    target="_blank"
+                    >Live Link</a
+                  >
                 </div>
-              <div class="ml-4">
-                    <a href="https://github.com/OdongAlican/phaser-gmae" target="_blank">Github Repository</a>
+                <div class="ml-4">
+                  <a
+                    href="https://github.com/OdongAlican/phaser-gmae"
+                    target="_blank"
+                    >Github Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -86,12 +124,22 @@
               <span>
                 Stores Application (React & Redux).
               </span>
-              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+              <div
+                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+              >
                 <div>
-                    <a href="https://online-str-app.herokuapp.com/" target="_blank">Live Link</a>
+                  <a
+                    href="https://online-str-app.herokuapp.com/"
+                    target="_blank"
+                    >Live Link</a
+                  >
                 </div>
                 <div class="ml-4">
-                    <a href="https://github.com/OdongAlican/catalogue-of-recipes" target="_blank">Github Repository</a>
+                  <a
+                    href="https://github.com/OdongAlican/catalogue-of-recipes"
+                    target="_blank"
+                    >Github Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -99,14 +147,24 @@
           <div class="project-grid calculator-captone">
             <div class="project-title">
               <span>
-                Restaurant Page(Javascript).
+                Calculator Application(React & Redux).
               </span>
-              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+              <div
+                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+              >
                 <div>
-                    <a href="https://odongalican.github.io/calculator/" target="_blank">Live Link</a>
+                  <a
+                    href="https://odongalican.github.io/calculator/"
+                    target="_blank"
+                    >Live Link</a
+                  >
                 </div>
                 <div class="ml-4">
-                    <a href="https://github.com/OdongAlican/calculator" target="_blank">Github Repository</a>
+                  <a
+                    href="https://github.com/OdongAlican/calculator"
+                    target="_blank"
+                    >Github Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -116,14 +174,24 @@
           <div class="project-grid ruby-capstone">
             <div class="project-title">
               <span>
-                  Categories and Articles Blog (Ruby on Rails).
+                Categories and Articles Blog (Ruby on Rails).
               </span>
-              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+              <div
+                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+              >
                 <div>
-                    <a href="https://guarded-refuge-63992.herokuapp.com/" target="_blank">Live Link</a>
+                  <a
+                    href="https://guarded-refuge-63992.herokuapp.com/"
+                    target="_blank"
+                    >Live Link</a
+                  >
                 </div>
-              <div class="ml-4">
-                    <a href="https://github.com/OdongAlican/articles-capstone-project" target="_blank">Github Repository</a>
+                <div class="ml-4">
+                  <a
+                    href="https://github.com/OdongAlican/articles-capstone-project"
+                    target="_blank"
+                    >Github Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -133,12 +201,22 @@
               <span>
                 Posting Course Website (HTML and CSS).
               </span>
-              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+              <div
+                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+              >
                 <div>
-                    <a href="https://raw.githack.com/OdongAlican/courses-guide/develop/" target="_blank">Live Link</a>
+                  <a
+                    href="https://raw.githack.com/OdongAlican/courses-guide/develop/"
+                    target="_blank"
+                    >Live Link</a
+                  >
                 </div>
                 <div class="ml-4">
-                    <a href="https://github.com/OdongAlican/courses-guide" target="_blank">Github Repository</a>
+                  <a
+                    href="https://github.com/OdongAlican/courses-guide"
+                    target="_blank"
+                    >Github Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -148,12 +226,22 @@
               <span>
                 Cloaning Newseek Home Page(Bootstrap).
               </span>
-              <div class=" pl-2 downer-div d-flex justify-content-center align-items-center">
+              <div
+                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+              >
                 <div>
-                    <a href="https://raw.githack.com/OdongAlican/newsweek.com-home-page/develop/" target="_blank">Live Link</a>
+                  <a
+                    href="https://raw.githack.com/OdongAlican/newsweek.com-home-page/develop/"
+                    target="_blank"
+                    >Live Link</a
+                  >
                 </div>
                 <div class="ml-4">
-                    <a href="https://github.com/OdongAlican/newsweek.com-home-page" target="_blank">Github Repository</a>
+                  <a
+                    href="https://github.com/OdongAlican/newsweek.com-home-page"
+                    target="_blank"
+                    >Github Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -175,7 +263,10 @@
               <p>
                 How can one achieve proper elements alignment on a web-page?
                 Having a wonderful looking page using Grid or Flex-Boxes ...
-                <a href="https://medium.com/@sandieo.2020/how-can-one-achieve-proper-elements-alignment-on-a-web-page-8e1a9618bfb2" target="_blank">
+                <a
+                  href="https://medium.com/@sandieo.2020/how-can-one-achieve-proper-elements-alignment-on-a-web-page-8e1a9618bfb2"
+                  target="_blank"
+                >
                   Read More
                 </a>
               </p>
@@ -184,9 +275,13 @@
           <div class="blog-grid first-blog wordpress">
             <div class="blog-title-section">
               <p>
-                Managing relationship among various collections in mongo database with Express/Js
-                This involves attaching a created Post to its author ...
-                <a href="https://blog.learningdollars.com/2020/04/26/relationship-in-mongodb-using-node-expressjs/" target="_blank">
+                Managing relationship among various collections in mongo
+                database with Express/Js This involves attaching a created Post
+                to its author ...
+                <a
+                  href="https://blog.learningdollars.com/2020/04/26/relationship-in-mongodb-using-node-expressjs/"
+                  target="_blank"
+                >
                   Read More
                 </a>
               </p>
@@ -198,16 +293,13 @@
   </div>
 </template>
 <style scoped>
-
-
-
 .projects-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 20px;
-  font-family: Nunito,sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 14px;
-  color: #A2A79D;
+  color: #a2a79d;
 }
 
 .project-grid {
@@ -275,7 +367,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #2E344E;
+  background-color: #2e344e;
 }
 
 .blogs {
@@ -290,7 +382,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 20px;
-  font-family: Nunito,sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 14px;
 }
 
@@ -307,9 +399,9 @@
 .blog-grid {
   position: relative;
   height: 270px;
-  color: #A2A79D;
+  color: #a2a79d;
   margin-right: 10px;
-  border: 3px solid #2E344E;
+  border: 3px solid #2e344e;
 }
 
 .blog-title-section {
@@ -318,7 +410,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #2E344E;
+  background-color: #2e344e;
   left: 0;
 }
 
@@ -345,6 +437,5 @@
   .blog-grid {
     margin-top: 10px;
   }
-  
 }
 </style>

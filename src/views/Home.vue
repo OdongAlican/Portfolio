@@ -6,16 +6,24 @@
     <div class="background-section col-md-2"></div>
     <div class="background-section col-md-2"></div>
     <div class="main-content">
-      <h1>Hi, I am
+      <h1>
+        Hi, I am
         <span>Sunday Odong</span>
       </h1>
       <p>
-        I’m a full-stack software developer, and I specialize in efficient, Ruby, Ruby on Rails, Javascript,
+        I’m a full-stack software developer, and I specialize in efficient,
+        Ruby, Ruby on Rails, Javascript,
       </p>
-      <p> React apps and CSS & HTML that just work across all platforms and browsers</p>
+      <p>
+        React apps and CSS & HTML that just work across all platforms and
+        browsers
+      </p>
       <div class="social-media d-flex">
         <div class="linkedIn">
-          <a href="https://www.linkedin.com/in/sunday-alican-odong-b99226b7/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/sunday-alican-odong-b99226b7/"
+            target="_blank"
+          >
             <i class="fab fa-linkedin-in"></i>
           </a>
         </div>
@@ -36,8 +44,7 @@
 <script>
 export default {
   name: "Home",
-  components: {
-  }
+  components: {}
 };
 </script>
 <style scoped>
@@ -45,7 +52,7 @@ export default {
   position: absolute;
   width: 70em;
   height: 20em;
-  font-family: Nunito,sans-serif;
+  font-family: Nunito, sans-serif;
   font-weight: 900;
   margin: 17em 8em 0;
   color: #fff;
@@ -61,7 +68,7 @@ export default {
 
 .main-content p {
   font-size: 20px;
-  color: #6F7588;
+  color: #6f7588;
 }
 .main-content span {
   color: #037fff;
@@ -80,8 +87,8 @@ export default {
 
 .social-media div {
   display: flex;
-  border-radius: 50%; 
-  border: 3px solid #6F7588;
+  border-radius: 50%;
+  border: 3px solid #6f7588;
   width: 40px;
   height: 40px;
   justify-content: center;

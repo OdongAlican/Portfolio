@@ -25,19 +25,19 @@
               <label for="name">
                 Enter Your Name*
               </label>
-              <input type="text">
+              <input type="text" />
             </div>
             <div class="name">
               <label for="name">
                 Enter Your email*
               </label>
-              <input type="email">
+              <input type="email" />
             </div>
             <div class="name">
               <label for="name">
                 Enter Your Subject*
               </label>
-              <input type="text">
+              <input type="text" />
             </div>
             <div class="name">
               <label for="name">
@@ -90,8 +90,6 @@
   </div>
 </template>
 <style scoped>
-
-
 .contact-details {
   display: flex;
   width: 100%;
@@ -107,12 +105,12 @@
 .name textarea {
   display: flex;
   flex-direction: column;
-  border: 2px solid #2E344E;
+  border: 2px solid #2e344e;
   background-color: transparent;
-  color: #A2A79D;
+  color: #a2a79d;
   width: 100%;
-  background-color: #10121B;
-  padding: 5px 5px
+  background-color: #10121b;
+  padding: 5px 5px;
 }
 
 .name input {
@@ -124,7 +122,7 @@
 }
 
 .left-contact h4 {
-  font-family: Nunito,sans-serif;
+  font-family: Nunito, sans-serif;
   color: #fff;
 }
 
@@ -134,11 +132,11 @@
 }
 .name label {
   position: absolute;
-  color: #A2A79D;
+  color: #a2a79d;
   margin-top: -13px;
   margin-left: 10px;
   font-size: 16px;
-  background-color:#10121B;
+  background-color: #10121b;
   padding: 0 10px;
 }
 
@@ -148,18 +146,17 @@
 
 .icon {
   padding: 20px;
-  background: #191D2B;
+  background: #191d2b;
   flex: 1;
   font-size: 30px;
-  color: #A4ACC4;
+  color: #a4acc4;
 }
 
 .icon-details {
   flex: 5;
-  font-family: Nunito,sans-serif;
-  background: #191D2B;
+  font-family: Nunito, sans-serif;
+  background: #191d2b;
   padding-left: 10px;
-
 }
 
 .icon-details span {
@@ -170,12 +167,12 @@
 }
 
 .icon-details p {
-  color: #A2A79D;
+  color: #a2a79d;
   font-size: 16px;
 }
 
 .font-icon {
-  border: 1px solid #A4ACC4;
+  border: 1px solid #a4acc4;
   padding: 20px;
 }
 
@@ -184,7 +181,7 @@
 }
 
 button {
-  background-color: #0D7DFA;
+  background-color: #0d7dfa;
   border: none;
   width: 120px;
   height: 50px;
@@ -194,7 +191,6 @@ button {
   margin-top: 10px;
   cursor: pointer;
 }
-
 
 @media only screen and (max-width: 1024px) {
   .contact-details {
@@ -206,5 +202,4 @@ button {
     margin-top: 20px;
   }
 }
-
 </style>
