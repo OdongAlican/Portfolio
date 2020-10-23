@@ -224,7 +224,7 @@
           <div class="project-grid bootstrap-captone">
             <div class="project-title">
               <span>
-                Cloaning Newseek Home Page(Bootstrap).
+                Cloning Newsweek Home Page(Bootstrap).
               </span>
               <div
                 class=" pl-2 downer-div d-flex justify-content-center align-items-center"
@@ -260,7 +260,7 @@
         <div class="blog-section">
           <div class="blog-grid first-blog medium">
             <div class="blog-title-section">
-              <p>
+              <p class="blog-body">
                 How can one achieve proper elements alignment on a web-page?
                 Having a wonderful looking page using Grid or Flex-Boxes ...
                 <a
@@ -274,7 +274,7 @@
           </div>
           <div class="blog-grid first-blog wordpress">
             <div class="blog-title-section">
-              <p>
+              <p class="blog-body">
                 Managing relationship among various collections in mongo
                 database with Express/Js This involves attaching a created Post
                 to its author ...
@@ -304,61 +304,70 @@
 
 .project-grid {
   margin-right: 10px;
-  height: 250px;
+  height: 270px;
 }
 
 .html-capstone {
-  background-image: url("../../public/Courses_Desktop.png");
-  background-size: cover;
+  background-image: url("../../public/SmartMockup/Courses_Desktop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
 }
 
 .ruby-capstone {
-  background-image: url("../../public/Home_page.png");
+  background-image: url("../../public/SmartMockup/blog.png");
   position: relative;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .final-capstone {
-  background-image: url("../../public/track_it.png");
+  background-image: url("../../public/SmartMockup/track_it.jpg");
   position: relative;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .weather-capstone {
-  background-image: url("../../public/weather_app.png");
+  background-image: url("../../public/SmartMockup/weather_app.jpg");
   position: relative;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .restaurant-captone {
-  background-image: url("../../public/restaurant.png");
+  background-image: url("../../public/SmartMockup/restaurant.png");
   position: relative;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .game-capstone {
-  background-image: url("../../public/phaser.png");
+  background-image: url("../../public/SmartMockup/phaser.jpg");
   position: relative;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .bootstrap-captone {
-  background-image: url("../../public/Screen-Shot.png");
+  background-image: url("../../public/SmartMockup/newsweek.jpg");
   position: relative;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .recipies-capstone {
-  background-image: url("../../public/recipies.png");
+  background-image: url("../../public/SmartMockup/recipies.jpg");
   position: relative;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .calculator-captone {
-  background-image: url("../../public/calculator.png");
+  background-image: url("../../public/SmartMockup/calculator.jpg");
   position: relative;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .project-title {
@@ -368,6 +377,7 @@
   left: 0;
   width: 100%;
   background-color: #2e344e;
+  padding: 10px;
 }
 
 .blogs {
@@ -380,25 +390,29 @@
 
 .blog-section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 20px;
   font-family: Nunito, sans-serif;
   font-size: 14px;
 }
 
+.blog-body {
+  text-align: start;
+}
+
 .medium {
   background-image: url("../../public/chess.jpeg");
-  background-size: cover;
+  background-size: contain;
 }
 
 .wordpress {
   background-image: url("../../public/mongo.jpg");
-  background-size: cover;
+  background-size: contain;
 }
 
 .blog-grid {
   position: relative;
-  height: 270px;
+  height: 320px;
   color: #a2a79d;
   margin-right: 10px;
   border: 3px solid #2e344e;
@@ -406,12 +420,13 @@
 
 .blog-title-section {
   position: absolute;
-  height: 60px;
+  height: 100px;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: #2e344e;
   left: 0;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 1024px) {
