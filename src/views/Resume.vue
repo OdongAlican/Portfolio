@@ -109,12 +109,13 @@
           </div>
           <div class="right-section">
             <h5>Full-Stack Web Developer</h5>
-            <span>Learning Dollas Talent (LDT)</span>
+            <span>Learning Dollars Talent (LDT)</span>
             <p>
-              My role at LDT is a fullstack software Developer, Practising Node
-              JS frame work of Express for Server side language and Vue JS
-              Javascript framework for the front-end. This role is mainly
-              freelance based programming and blogs writing.
+              My position at LDT is "Freelance Full Stack Software Developer".
+              My role is to develop scalable applications using ExpressJs and
+              VueJS, following the agile methodology of software development. I
+              also participate in writing blogs that can be used by other
+              developers at LDT ( Learning Dollars Talent).
             </p>
           </div>
         </div>
@@ -127,11 +128,11 @@
             <h5>Full-Stack Web Developer</h5>
             <span>Refactory Uganda (Bootcamp)</span>
             <p>
-              At Refactory Uganda, I was involved in a three months softskills
-              training (including lean and Agile methodologies of web
-              development) and an intense six (6) months Bootcamp practising web
-              development in Javascript (Vue Js) and Express JS for Ugandan
-              based companies.
+              At refactory Uganda, software developers are trained in technical
+              skills ( including Javascript, VueJs, ExpressJs, HTML, and CSS)
+              and soft skills ( including Leadership skills, lean and agile
+              methodologies). They are also provided opportunities to develop
+              applications for start-up companies in Uganda.
             </p>
           </div>
         </div>
@@ -141,13 +142,13 @@
             <span>2017(April) - 2017(September)</span>
           </div>
           <div class="right-section">
-            <h5>Base Station Transciever (BTS) Maintenance</h5>
+            <h5>Base Station Transceiver (BTS) Maintenance</h5>
             <span>Netis Uganda (Intern)</span>
             <p>
-              NETIS is a telecommunications Company based in Uganda in charge of
-              maintaining a number of telecommunications sites within the
+              NETIS is a telecommunication company based in Uganda. They are in
+              charge of maintaining several telecommunications sites within the
               country. My role as an intern was to maintain the various
-              equipment within the base stations.
+              equipment within the base transceiver stations.
             </p>
           </div>
         </div>
@@ -164,12 +165,11 @@
             <h5>Full-Stack Web Development</h5>
             <span>Microverse</span>
             <p>
-              At microverse, I am Learning fullstack Web Development in Ruby,
-              Ruby on Rails, Javascript, React &#38; Redux, MYSQL, HTML and CSS.
-              The course also includes testing of the written code and pair
-              programming. Microverse also ensure that students have
-              professional skills besides technical skills which is also
-              included in the course.
+              At Microverse, I am Learning full-stack Web Development in Ruby,
+              Ruby on Rails, Javascript, React & Redux, MYSQL, HTML, and CSS.
+              Microverse also ensures that students have professional skills
+              besides technical skills. These soft skills include remote and
+              pair programming among others.
             </p>
           </div>
         </div>
@@ -182,12 +182,12 @@
             <h5>Bachelor Degree</h5>
             <span>Kyambogo University Uganda</span>
             <p>
-              At Kyambogo University Uganda, I was rewarded with a Bachelor
-              Degree in Telecommunications Engineering. Telecommunications
-              Engineering is an engineering discipline centered on electrical
-              and computer engineering which seeks to support and enhance
-              telecommunication systems. The work ranges from basic circuit
-              design to strategic mass developments.
+              I was awarded a Bachelor of Telecommunications Engineering degree
+              from Kyambogo University in Uganda. Telecommunications Engineering
+              is an engineering discipline centered on electrical and computer
+              engineering which seeks to support and enhance telecommunication
+              systems. The work ranges from basic circuit design to strategic
+              mass developments.
             </p>
           </div>
         </div>

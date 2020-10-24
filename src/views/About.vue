@@ -95,10 +95,10 @@
             <div class="empty-div"></div>
             <div class="description">
               <p>
-                This is mainly achieved using Bootstrap, HTML5 and CSS3. The
-                development includes use of media queries, font-awesome icons
-                and google fonts. The website is design for various screen sizes
-                including Desktop, Tab and Mobile screen sizes.
+                This is mainly achieved using Bootstrap, HTML5, and CSS3. The
+                development includes the use of media queries, font-awesome
+                icons, and google fonts. The website is designed for various
+                screen sizes including Desktop, Tab, and Mobile screen sizes.
               </p>
             </div>
           </div>
@@ -108,8 +108,8 @@
             <div class="empty-div"></div>
             <div class="description">
               <p>
-                I majorly develop single paged applications using Javascript and
-                its frame-work React and Redux.
+                I majorly develop single-page applications using Javascript and
+                its frame-work of React and VueJs.
               </p>
             </div>
           </div>
@@ -119,9 +119,10 @@
             <div class="empty-div"></div>
             <div class="description">
               <p>
-                In the Server-side (also know as Back-end), I specialize in Ruby
-                and its frame-work of Ruby on Rails. This is many developed
-                using relational database like Postgress, SQLite or MYSQL
+                On the Server-side (also know as Back-end), I specialize in Ruby
+                and its frame-work of Ruby on Rails, and Node/ExpressJs. The
+                services are developed using relational databases like
+                Postgress, SQLite or MYSQL, and MongoDB (NoSQL DB)
               </p>
             </div>
           </div>
@@ -157,7 +158,7 @@
           <div class="review-item">
             <p>
               I had the pleasure of having Sunday as a standup team member in
-              the microverse program. I was particularly impressed by his
+              the Microverse program. I was particularly impressed by his
               problem-solving ability which seemed to come naturally to him
               whenever we had mob programming sessions.
             </p>

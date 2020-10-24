@@ -275,8 +275,8 @@
           <div class="blog-grid first-blog wordpress">
             <div class="blog-title-section">
               <p class="blog-body">
-                Managing relationship among various collections in mongo
-                database with Express/Js This involves attaching a created Post
+                Managing relationships among various collections in the Mongo
+                database with Express/Js. It involves attaching a created Post
                 to its author ...
                 <a
                   href="https://blog.learningdollars.com/2020/04/26/relationship-in-mongodb-using-node-expressjs/"
