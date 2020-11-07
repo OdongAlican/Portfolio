@@ -5,29 +5,29 @@
         <div class=" mx-auto photo-section opposite"></div>
       </div>
       <div class="links-section mt-4 px-1">
-        <router-link class="link" to="/">
-          <i class="fas fa-home small-screen fa-2x"></i>
+        <router-link class="link border-link exec-home" to="/">
+          <i class="fas fa-home small-screen mr-2"></i>
           <span class="opposite">HOME</span>
         </router-link>
-        <router-link class="link" to="/about">
-          <i class="fas fa-address-card small-screen fa-2x"></i>
+        <router-link class="link border-link" to="/about">
+          <i class="fas fa-address-card small-screen mr-2"></i>
           <span class="opposite">ABOUT</span>
         </router-link>
-        <router-link class="link" to="/resume">
-          <i class="fas fa-info-circle small-screen fa-2x"></i>
+        <router-link class="link border-link" to="/resume">
+          <i class="fas fa-info-circle small-screen mr-2"></i>
           <span class="opposite">RESUME</span>
         </router-link>
-        <router-link class="link" to="/projects">
-          <i class="far fa-building small-screen fa-2x"></i>
+        <router-link class="link border-link" to="/projects">
+          <i class="far fa-building small-screen mr-2"></i>
           <span class="opposite">PROJECTS</span>
         </router-link>
-        <router-link class="link" to="/contacts">
-          <i class="fas fa-phone small-screen fa-2x"></i>
+        <router-link class="link border-link" to="/contacts">
+          <i class="fas fa-phone small-screen mr-2"></i>
           <span class="opposite">CONTACTS</span>
         </router-link>
       </div>
       <div class="copyright">
-        <span>&copy; 2020 SoftEarthTech </span>
+        <span class="mt-1">&copy; 2020 SoftEarthTech </span>
         <div class="social-media-footer">
           <div class="linkedIn-footer p-1">
             <a
@@ -95,6 +95,17 @@ body {
   border-top: 1px solid #2e344e;
   border-bottom: 1px solid #2e344e;
   padding: 4em 0;
+}
+
+.border-link {
+  border-bottom: 1px solid #2e344e;
+  border-left: 1px solid #2e344e;
+  border-right: 1px solid #2e344e;
+  width: 100%;
+}
+
+.exec-home {
+  border-top: 1px solid #2e344e;
 }
 
 #nav {
@@ -205,6 +216,11 @@ body {
 .github-footer {
   border: 2px solid gray;
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-media-footer {
@@ -246,6 +262,8 @@ body {
   .linkedIn-footer,
   .github-footer {
     margin: 2px 15px;
+    width: 25px;
+    height: 25px;
   }
 }
 </style>
