@@ -75,7 +75,7 @@
                 <p>: Available</p>
               </div>
             </div>
-            <a class="cv-download ml-2 mt-2" href="Resumecurriculumvitae.pdf" target="_blank">
+            <a class="cv-download ml-2 mt-2" href="Resumecurriculumvitae.pdf" download>
               DOWNLOAD CV
             </a>
           </div>
