@@ -76,7 +76,7 @@
               </div>
             </div>
             <a class="cv-download ml-2 mt-2" href="https://docs.google.com/document/d/1XLCA67ffYH8G7J0uXQxCWDbLUfzdkHKSC4q51EUnFpk/edit?usp=sharing" target="_blank" >
-              DOWNLOAD CV
+              VIEW RESUME
             </a>
           </div>
         </div>
