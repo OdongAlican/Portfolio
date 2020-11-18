@@ -181,7 +181,7 @@
               >
                 <div>
                   <a
-                    href="https://guarded-refuge-63992.herokuapp.com/"
+                    href="https://infinite-bastion-80235.herokuapp.com/"
                     target="_blank"
                     >Live Link</a
                   >
@@ -451,6 +451,18 @@
 
   .blog-grid {
     margin-top: 10px;
+  }
+
+  .html-capstone,
+  .ruby-capstone,
+  .final-capstone,
+  .weather-capstone,
+  .restaurant-captone,
+  .game-capstone,
+  .bootstrap-captone,
+  .recipies-capstone,
+  .calculator-captone {
+    background-position: center;
   }
 }
 </style>
