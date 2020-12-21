@@ -18,77 +18,121 @@
         <div class="inner-section">
           <div class="middle-section"></div>
         </div>
-        <div class="contact-details d-flex">
-          <div class="left-contact">
-            <h4>Get In Touch</h4>
-            <div class="name">
-              <label for="name">
-                Enter Your Name*
-              </label>
-              <input type="text" />
+        <form @submit.prevent="sendEmail">
+          <div class="contact-details d-flex">
+            <div class="left-contact">
+              <h4>Get In Touch</h4>
+              <div class="name">
+                <label for="name">
+                  Enter Your Name*
+                </label>
+                <input v-model="name" name="name" type="text" />
+              </div>
+              <div class="name">
+                <label for="name">
+                  Enter Your email*
+                </label>
+                <input type="email" v-model="email" name="email" />
+              </div>
+              <div class="name">
+                <label for="name">
+                  Enter Your Subject*
+                </label>
+                <input type="text" v-model="subject" name="subject" />
+              </div>
+              <div class="name">
+                <label for="name">
+                  Enter Your Message*
+                </label>
+                <textarea
+                  name="message"
+                  v-model="message"
+                  cols="30"
+                  rows="8"
+                ></textarea>
+              </div>
+              <button type="submit" value="Send">
+                SEND MAIL
+              </button>
             </div>
-            <div class="name">
-              <label for="name">
-                Enter Your email*
-              </label>
-              <input type="email" />
+            <div class="right-contact">
+              <div class="phone-contact first-part">
+                <div class="icon">
+                  <div class="font-icon">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                </div>
+                <div class="icon-details">
+                  <span>Phone</span>
+                  <p>+256777338787</p>
+                </div>
+              </div>
+              <div class="phone-contact first-part">
+                <div class="icon">
+                  <div class="font-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                </div>
+                <div class="icon-details">
+                  <span>Email</span>
+                  <p>sandieo.2020@gmail.com</p>
+                </div>
+              </div>
+              <div class="phone-contact">
+                <div class="icon">
+                  <div class="font-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                </div>
+                <div class="icon-details">
+                  <span>Address</span>
+                  <p>Plot 19, Obiya Road Gulu-Uganda</p>
+                </div>
+              </div>
             </div>
-            <div class="name">
-              <label for="name">
-                Enter Your Subject*
-              </label>
-              <input type="text" />
-            </div>
-            <div class="name">
-              <label for="name">
-                Enter Your Message*
-              </label>
-              <textarea name="" id="" cols="30" rows="8"></textarea>
-            </div>
-            <button>
-              SEND MAIL
-            </button>
           </div>
-          <div class="right-contact">
-            <div class="phone-contact first-part">
-              <div class="icon">
-                <div class="font-icon">
-                  <i class="fas fa-phone"></i>
-                </div>
-              </div>
-              <div class="icon-details">
-                <span>Phone</span>
-                <p>+256777338787</p>
-              </div>
-            </div>
-            <div class="phone-contact first-part">
-              <div class="icon">
-                <div class="font-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
-              </div>
-              <div class="icon-details">
-                <span>Email</span>
-                <p>sandieo.2020@gmail.com</p>
-              </div>
-            </div>
-            <div class="phone-contact">
-              <div class="icon">
-                <div class="font-icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
-              </div>
-              <div class="icon-details">
-                <span>Address</span>
-                <p>Plot 19, Obiya Road Gulu-Uganda</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   </div>
 </template>
+<script>
+import emailjs from "emailjs-com";
+export default {
+  name: "ContactUs",
+  data() {
+    return {
+      name: "",
+      email: "",
+      message: ""
+    };
+  },
+  methods: {
+    sendEmail(e) {
+      try {
+        emailjs.sendForm(
+          "service_6w8g3c6",
+          "template_spjoqr9",
+          e.target,
+          "user_PxXQmOpuhrdfKIPjAOTQA",
+          {
+            name: this.name,
+            email: this.email,
+            message: this.message,
+            subject: this.subject
+          }
+        );
+      } catch (error) {
+        console.log({ error });
+      }
+      this.name = "";
+      this.email = "";
+      this.message = "";
+      this.subject = "";
+    }
+  }
+};
+</script>
 <style scoped>
 .contact-details {
   display: flex;
