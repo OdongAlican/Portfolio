@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
   <div class="about main-section">
     <h1 class="ml-4">
@@ -26,19 +27,74 @@
                 <label for="name">
                   Enter Your Name*
                 </label>
-                <input v-model="name" name="name" type="text" />
+                <input
+                  v-model.trim="$v.name.$model"
+                  :class="{
+                    'is-invalid': $v.name.$error,
+                    'is-valid': !$v.name.$invalid
+                  }"
+                  name="name"
+                  type="text"
+                />
+                <div class="valid-feedback">Your name is valid</div>
+                <div class="invalid-feedback">
+                  <span v-if="!$v.name.required">Name is Required!</span>
+                  <span v-if="!$v.name.minLength"
+                    >Name must be atleast
+                    {{ $v.name.$params.minLength.min }} letters.</span
+                  >
+                  <span v-if="!$v.name.maxLength"
+                    >Name must be at most
+                    {{ $v.name.$params.maxLength.max }} letters.</span
+                  >
+                </div>
               </div>
               <div class="name">
                 <label for="name">
                   Enter Your email*
                 </label>
-                <input type="email" v-model="email" name="email" />
+                <input
+                  v-model.trim="$v.email.$model"
+                  :class="{
+                    'is-invalid': $v.email.$error,
+                    'is-valid': !$v.email.$invalid
+                  }"
+                  type="email"
+                  name="email"
+                />
+                <div class="valid-feedback">Your Email is valid</div>
+                <div class="invalid-feedback">
+                  <span v-if="!$v.email.required">Email is Required!</span>
+                  <span v-if="!$v.email.isValid"
+                    >Email does not match patern!</span
+                  >
+                </div>
               </div>
               <div class="name">
                 <label for="name">
                   Enter Your Subject*
                 </label>
-                <input type="text" v-model="subject" name="subject" />
+                <input
+                  v-model.trim="$v.subject.$model"
+                  :class="{
+                    'is-invalid': $v.subject.$error,
+                    'is-valid': !$v.subject.$invalid
+                  }"
+                  type="text"
+                  name="subject"
+                />
+                <div class="valid-feedback">Your subject is valid</div>
+                <div class="invalid-feedback">
+                  <span v-if="!$v.subject.required">Subject is Required!</span>
+                  <span v-if="!$v.subject.minLength"
+                    >Subject must be atleast
+                    {{ $v.subject.$params.minLength.min }} letters.</span
+                  >
+                  <span v-if="!$v.subject.maxLength"
+                    >Subject must be at most
+                    {{ $v.subject.$params.maxLength.max }} letters.</span
+                  >
+                </div>
               </div>
               <div class="name">
                 <label for="name">
@@ -46,10 +102,26 @@
                 </label>
                 <textarea
                   name="message"
-                  v-model="message"
+                  v-model.trim="$v.message.$model"
+                  :class="{
+                    'is-invalid': $v.message.$error,
+                    'is-valid': !$v.message.$invalid
+                  }"
                   cols="30"
                   rows="8"
                 ></textarea>
+                <div class="valid-feedback">Your message is valid</div>
+                <div class="invalid-feedback">
+                  <span v-if="!$v.message.required">Message is Required!</span>
+                  <span v-if="!$v.message.minLength"
+                    >Message must be atleast
+                    {{ $v.message.$params.minLength.min }} letters.</span
+                  >
+                  <span v-if="!$v.message.maxLength"
+                    >Message must be at most
+                    {{ $v.message.$params.maxLength.max }} letters.</span
+                  >
+                </div>
               </div>
               <button type="submit" value="Send">
                 SEND MAIL
@@ -98,14 +170,53 @@
 </template>
 <script>
 import emailjs from "emailjs-com";
+import {
+  required,
+  minLength,
+  maxLength,
+  email
+} from "vuelidate/lib/validators";
 export default {
   name: "ContactUs",
   data() {
     return {
       name: "",
       email: "",
-      message: ""
+      message: "",
+      subject: ""
     };
+  },
+  validations: {
+    name: {
+      required,
+      minLength: minLength(3),
+      maxLength: maxLength(25)
+    },
+    subject: {
+      required,
+      minLength: minLength(5),
+      maxLength: maxLength(35)
+    },
+    message: {
+      required,
+      minLength: minLength(5),
+      maxLength: maxLength(500)
+    },
+    email: {
+      required,
+      email,
+      isValid(value) {
+        if (value === "") return true;
+        // eslint-disable-next-line
+        const email_regex = /^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i;
+
+        return new Promise(resolve => {
+          setTimeout(() => {
+            resolve(email_regex.test(value));
+          }, 350 + Math.random() * 300);
+        });
+      }
+    }
   },
   methods: {
     sendEmail(e) {
