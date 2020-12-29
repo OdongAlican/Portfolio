@@ -124,7 +124,7 @@
                 </div>
               </div>
               <button type="submit" value="Send">
-                SEND MAIL
+                SUBMIT {{ submitstatus }}
               </button>
             </div>
             <div class="right-contact">
@@ -220,26 +220,32 @@ export default {
   },
   methods: {
     sendEmail(e) {
-      try {
-        emailjs.sendForm(
-          "service_6w8g3c6",
-          "template_spjoqr9",
-          e.target,
-          "user_PxXQmOpuhrdfKIPjAOTQA",
-          {
-            name: this.name,
-            email: this.email,
-            message: this.message,
-            subject: this.subject
-          }
-        );
-      } catch (error) {
-        console.log({ error });
+      this.$v.$touch();
+      if (this.$v.$invalid) {
+        this.submitstatus = "FAIL";
+      } else {
+        try {
+          emailjs.sendForm(
+            "service_6w8g3c6",
+            "template_spjoqr9",
+            e.target,
+            "user_PxXQmOpuhrdfKIPjAOTQA",
+            {
+              name: this.name,
+              email: this.email,
+              message: this.message,
+              subject: this.subject
+            }
+          );
+        } catch (error) {
+          console.log({ error });
+        }
+        this.name = "";
+        this.email = "";
+        this.message = "";
+        this.subject = "";
+        this.submitstatus = "SUCCESS";
       }
-      this.name = "";
-      this.email = "";
-      this.message = "";
-      this.subject = "";
     }
   }
 };
@@ -345,6 +351,7 @@ button {
   font-size: 14px;
   margin-top: 10px;
   cursor: pointer;
+  outline: none;
 }
 
 @media only screen and (max-width: 1024px) {
